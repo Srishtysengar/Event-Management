@@ -9,7 +9,7 @@ const connectDB = require("./config/database");
 connectDB();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://event-management-gcyb.vercel.app/",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,

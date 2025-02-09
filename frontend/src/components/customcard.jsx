@@ -36,7 +36,7 @@ const CustomCard = ({
   const handleDelete = async () => {
     try {
       const response = await fetch(
-        `http://localhost:4001/api/events/${eventID}`,
+        `https://event-management-five-pied.vercel.app/events/${eventID}`,
         {
           method: "DELETE",
           headers: {

@@ -14,7 +14,7 @@ const UpcomingEvents = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:4001/api/events");
+        const response = await fetch("https://event-management-five-pied.vercel.app/api/events");
         const data = await response.json();
         setEvents(data);
       } catch (error) {
