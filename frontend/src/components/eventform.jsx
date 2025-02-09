@@ -22,7 +22,7 @@ const EventForm = ({ onEventSubmit }) => {
       return;
     }
 
-    const response = await fetch("https://event-management-five-pied.vercel.app/api/events", {
+    const response = await fetch("http://localhost:4001/api/events", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
